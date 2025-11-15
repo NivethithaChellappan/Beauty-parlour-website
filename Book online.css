@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Dancing+Script:wght@400..700&family=Emilys+Candy&family=Italianno&family=Jim+Nightshade&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Monsieur+La+Doulaise&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Splash&family=Tangerine:wght@400;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+.home-page{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: black;
+
+    
+}
+.image-logo{
+    max-width: 50px;
+}
+.middle-content{
+    flex: 1;
+    text-align: start;
+
+    
+}
+.icon-content{
+    flex: 0.1;
+    text-align: end;
+}
+.logo{
+    text-decoration: none;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    cursor: default;
+    color: #fff;
+}
+.content{
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 30px;
+}
+.content-box{
+    flex: 1;
+}
+.paragraph{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.Booking{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.main-box{
+    height: 50px;
+    background-color: rgba(209,209,209);
+    padding: 15px;
+    margin-top: 20px;
+}
+.paragraph-2{
+    font-size: 17px;
+}
+.details{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+.info{
+    padding: 10px 90px;
+    transition: all 0.16s ease;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid black;
+}
+.info:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.info-2{
+    padding: 30px 288px;
+    transition: all 0.16s ease;
+    border-radius: 5px;
+    border: none;
+    border: none;
+    border: 1px solid black;
+
+}
+.info-2:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: "Zilla Slab", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+button{
+    padding: 10px 332px;
+    background-color: rgba(209,209,209);
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all 0.16s ease;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+button:active{
+    background-color: rgb(74, 73, 73);
+}
+/*footer*/
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+ 
+
+}
+.footer-content{
+    color: rgba(226, 43, 186, 0.947);
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+ul li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    
+
+}
+.footer-a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-a:hover{
+    color: gold;
+    transition: all 0.15 ease;
+}
